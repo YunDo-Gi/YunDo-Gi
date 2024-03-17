@@ -1,6 +1,14 @@
-<div align="center">
+<!-- <div align="center">
     <img src="https://i.ibb.co/qBnKxRQ/2.png">
-</div>
+</div> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Madimi+One&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+<center>
+  <span style="font-family: 'Madimi One', sans-serif; font-size: 40px"> Hi, I'm Yuncheol Kwak </span>
+</center>
 
 ###
 
@@ -13,17 +21,12 @@
 ###
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo"  />
+  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo" style="padding-right: 12px" />
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo" style="padding-right: 12px" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" style="padding-right: 12px" />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" style="padding-right: 12px" />
+  <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo" style="padding-right: 12px" />
+  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" style="padding-right: 12px" />
 </div>
 
 ### 
@@ -34,6 +37,7 @@
 <div>
   <img src="footer.svg">
 </div>
+
 
 <!---
 YunDo-Gi/YunDo-Gi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
