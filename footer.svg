@@ -1,84 +1,83 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
+<!-- M0,0L34.3,16C68.6,32,137,64,206,106.7C274.3,149,343,203,411,224C480,245,549,235,617,192C685.7,149,754,75,823,53.3C891.4,32,960,64,1029,90.7C1097.1,117,1166,139,1234,122.7C1302.9,107,1371,53,1406,26.7L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z -->
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 480">
     <style>
-        footer {
-        position: relative;
-        width:100%;
-    background-color: #3586ff;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+        .wave-trans-left {
+            animation: animateWave 4s infinite linear;
+        }
 
-footer .wave {
-    position: absolute;
-    top:-100px;
-    left:0;
-    width: 100%;
-    height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%230099ff' fill-opacity='1' d='M0,224L48,197.3C96,171,192,117,288,80C384,43,480,21,576,32C672,43,768,85,864,128C960,171,1056,213,1152,229.3C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
-    background-size: 1000px 100px;
-}
+                .wave-trans-left-follow {
+            animation: animateWave2 4s infinite linear;
+        }
 
-@keyframes animateWave {
-    from {
-        background-position-x: 1000px;
-    } to {
-        background-position-x: 0px;
-    }
-}
+        .wave-trans-left-2 {
+            animation: animateWave 7s infinite linear;
+        }
 
-@keyframes animateWave_02 {
-    from {
-        background-position-x: 0px;
-    } to {
-        background-position-x: 1000px;
-    }
-}
+                .wave-trans-left-follow-2 {
+            animation: animateWave2 7s infinite linear;
+        }
 
-footer .wave#wave1{
-    z-index:10;
-    opacity:1;
-    bottom:0;   
-    animation: animateWave 4s linear infinite;
-}
+        .wave-trans-right {
+            animation: animateWave3 4s infinite linear;
+        }
 
-footer .wave#wave2{
-    z-index:9;
-    opacity:0.5;
-    bottom:10px;   
-    animation: animateWave_02 4s linear infinite;
-}
+        .wave-trans-right-follow {
+            animation: animateWave4 4s infinite linear;
+        }
 
-footer .wave#wave3{
-    z-index:10;
-    opacity:0.2;
-    bottom:15px;   
-    animation: animateWave 3s linear infinite;
-}
+        .wave-trans-right-2 {
+            animation: animateWave3 7s infinite linear;
+        }
 
-footer .wave#wave4{
-    z-index:9;
-    opacity:0.7;
-    bottom:20px;   
-    animation: animateWave_02 3s linear infinite;
-}
+        .wave-trans-right-follow-2 {
+            animation: animateWave4 7s infinite linear;
+        }
+
+
+        @keyframes animateWave {
+        from {
+            transform: translateX(0)
+        } to {
+            transform: translateX(-100%)
+            }
+        }
+
+        @keyframes animateWave2 {
+        from {
+            transform: translateX(99.9%)
+        } to {
+            transform: translateX(0)
+            }
+        }
+
+
+        @keyframes animateWave4 {
+        from {
+            transform: translateX(-100%)
+        } to {
+            transform: translateX(0)
+            }
+        }
+
+                @keyframes animateWave3 {
+        from {
+            transform: translateX(0)
+        } to {
+            transform: translateX(100%)
+            }
+        } 
+
+
 
     </style>
-
-        <footer>
-            <div class="waves">
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-                <div class="wave" id="wave3"></div>
-                <div class="wave" id="wave4"></div>    
-            </div>
-        </footer>
-    </div>
-  </foreignObject>
+    <path class="wave-trans-left" fill="#0099ff" fill-opacity="1" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-left-follow" fill="#0099ff" fill-opacity="1" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-right" fill="#0099ff" fill-opacity="0.5" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-right-follow" fill="#0099ff" fill-opacity="0.5" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-left-2" fill="#0099ff" fill-opacity="0.2" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-left-follow-2" fill="#0099ff" fill-opacity="0.2" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-right-2" fill="#0099ff" fill-opacity="0.7" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <path class="wave-trans-right-follow-2" fill="#0099ff" fill-opacity="0.7" d="M0,256L30,240C60,224,120,192,180,186.7C240,181,300,203,360,224C420,245,480,267,540,240C600,213,660,139,720,138.7C780,139,840,213,900,245.3C960,277,1020,267,1080,272C1140,277,1200,299,1260,298.7C1320,299,1380,277,1410,266.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+    <rect x="0" y="0" transform="translate(0, 319)" width="1440" height="320" fill="#0099ff"></rect>
 </svg>
