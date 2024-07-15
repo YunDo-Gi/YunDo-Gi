@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Madimi+One&family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
 <center>
-  <span style="font-family: 'Madimi One', sans-serif; font-size: 40px"> Hi, I'm Yuncheol Kwak </span>
+  <h1 style="font-family: 'Madimi One', sans-serif;"> Hi, I'm Yuncheol Kwak </h1>
 </center>
 
 ###
@@ -32,7 +32,7 @@
 ### 
 
 - 👀 I’m interested in ...
-- 🌱 I’m currently learning [Notion](https://obsidian-gallium-868.notion.site/Programming-e5aad2eb00894b44bcd9465a2766141a) 
+- 🌱 I’m currently learning ...
 
 <div>
   <img src="footer.svg">
