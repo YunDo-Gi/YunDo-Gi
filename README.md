@@ -2,25 +2,12 @@
     <img src="https://i.ibb.co/qBnKxRQ/2.png">
 </div> -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Madimi+One&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
-<center>
-  <h1 style="font-family: 'Madimi One', sans-serif;"> Hi, I'm Yuncheol Kwak </h1>
-</center>
+# 👋 Hello, I'm Yuncheol Kwak 
+<!-- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fredoka&weight=500&size=32&duration=1&pause=1000&color=F0F6FC&repeat=false&width=435&lines=Hi+there%2C+I'm+Yuncheol+Kwak+%F0%9F%91%8B" alt="Typing SVG" /></a> -->
 
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=YunDo-Gi.YunDo-Gi&"  />
-  <img src="https://img.shields.io/badge/made%20with-%E2%98%95%EF%B8%8F%20coffee-yellow.svg"  />
-</div>
-
-
-###
-
-<div align="left">
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo" style="padding-right: 12px" />
   <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo" style="padding-right: 12px" />
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" style="padding-right: 12px" />
@@ -29,10 +16,19 @@
   <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" style="padding-right: 12px" />
 </div>
 
-### 
+### 👀 Interests
 
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- Front-end development
+- UI/UX design
+
+### 🌱 *Experience*
+- Kyung Hee University UCLab Undergraduate UI/UX Research Assistant (*2022.11 ~ 2023.11*)
+- UI/UX Redesign and Development for [Kaidoc](https://ljdacu.gabia.io/home) (*2024.07 ~ 2024.10*)
+
+### 🎓 *Education*
+- Kyung Hee University Computer Engineering (*2019.03 ~ 2025.02*)
+- San Jose State University (*2024.01*)
+
 
 <div>
   <img src="footer.svg">
